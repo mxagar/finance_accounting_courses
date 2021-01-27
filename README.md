@@ -1,2 +1,3 @@
-# finance_accounting_courses
-Notes on finance and accounting courses
+# Finance and Accounting Courses
+
+Notes on finance and accounting courses.
