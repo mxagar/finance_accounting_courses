@@ -1,0 +1,41 @@
+Some reference values:
+
+	1 T USD = 1,000 B USD = 1,000,000 million USD
+
+	The broad market for storing value is ~ $400T. 
+
+		gold: $10T
+		bonds: $100T
+		equities: $30T
+		real estate: $200T
+		broad money: $100T 
+		art, wine, collectibles: $20T
+
+Global GDP (flow, not stock): $87T
+
+	USA: $21.4T
+	China: $14.34T
+	Europe: $18.3T
+	Germany: $3.86T
+	Spain: $1.39T
+	Basque Country: $83.4B (6% of Spain)
+
+	España: ingresos netos mensuales por persona (2019)
+		Hasta 499 euros:		2,07%
+		De 500 a 999 euros: 	9,48%
+		De 1.000 a 1.499 euros: 16,31%
+		De 1.500 a 1.999 euros: 15,98%
+		De 2.000 a 2.499 euros: 17,70%
+		De 2.500 a 2.999 euros: 13,35%
+		De 3.000 a 4.999 euros: 19,47%
+		5.000 euros o más:		5,64%
+
+	España: ingresos netos mensuales por hogar (2019)	
+		Hasta 499 euros	3,18
+		De 500 a 999 euros	13,76
+		De 1.000 a 1.499 euros	19,33
+		De 1.500 a 1.999 euros	16,24
+		De 2.000 a 2.499 euros	16,57
+		De 2.500 a 2.999 euros	11,23
+		De 3.000 a 4.999 euros	15,65
+		5.000 euros o más	4,03
