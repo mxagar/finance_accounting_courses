@@ -39,3 +39,26 @@ Global GDP (flow, not stock): $87T
 		De 2.500 a 2.999 euros	11,23
 		De 3.000 a 4.999 euros	15,65
 		5.000 euros o más	4,03
+
+Net worth of the USA
+
+	Total assets in USA (what is owned): 101 Trillion
+		Average person owns: 270k!
+		The average family would own 1 million dollar!
+		However, that wealth is not uniformly distributed
+		Distribution
+			Real estate: 25 T
+			Pension funds: 21 T
+			Non-corporate equity (non-traded stocks/shares): 11 T
+			Deposits: 10 T
+			Corporate equity (traded stocks): 13 T
+			Mutual funds (indirect posesion of stocks and bonds): 8 T
+			Treasury securities (bonds): 1.2 T
+			Municipal bonds (regional government bonds): 1.5 T
+			Life insurance: 1.3 T
+	Total liabilities (what is owed): 14.5 Trillion
+		Distribution
+			Home mortgages: 10 T
+			Consumer credit: 3.5 T
+			Loans: 1.5 T
+			Difference Assets - Liabilities: 87 T
