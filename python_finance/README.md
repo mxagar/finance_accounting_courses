@@ -21,3 +21,5 @@ List of sections covered:
 5. Python Finance Fundamentals
 6. Basics of Algorithmic Trading with Quantopian
 7. Advanced Quantopian and Trading Algorithms
+
+Most of the contents in those notebookas are also in my `python_manual.txt`.
