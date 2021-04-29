@@ -35,6 +35,13 @@ However, my experience with Blueshift was not as good as expected. The main issu
     - `handle_data`: called every minute to perform actions depending on stock values
     - `schedule_function`
     - ...
+- The Quantopian IDE had a debugger integrated, too
+- Quantopian had Jupyter notebooks, too
+- It is possible to
+    - do leveraging: you borrow money and invest it; basically, the sum of the weights is lager than 1
+        - that is really risky
+        - we can put some leverage ratio thresholds to avoid too much risk
+    - short: basically, the weights of stocks to short are negative
  
 ### Some algorithms programmed
 
@@ -51,3 +58,4 @@ However, my experience with Blueshift was not as good as expected. The main issu
     - We compute the running Bollinger bands of a stock price
     - If price goes above the upper limit, we short it
     - If the price goes below the lower limit, we buy the stock
+    - The returns in the backtest were 60%, but it really depends on the stock tried: some stocks yield -45%!
