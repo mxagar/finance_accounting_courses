@@ -14,6 +14,9 @@ However, my experience with Blueshift was not as good as expected. The main issu
 
 - We use an online IDE accessed through the browser.
 - In the IDE, we write trading algorithms and backtest them: we run our algorithms and see how portfolios would have developed with historical data; then, it is possible to go live.
+    - Buy/sell actions are executed in the backtest; our algorithm decides to buy/sell depending on the price
+    - Note that we could implement backtests and trading algorithms in python using pandas an numpy, but that functionality is already implementes in `zipline` and `pyfolio`, and embedded in a comfortable IDE
+    - Morevover, a complete history of states is registered with those libraries, which can be later analyzed
 - Create an account.
 - In the Strategies tab
     - We can create strategies: basically, trading algorithms
@@ -24,12 +27,13 @@ However, my experience with Blueshift was not as good as expected. The main issu
     - Press `Create Strategy`
     - Code in IDE
     - Press Backtest: we see the returns of algorithm and the benchmark (market)
-- Visit the Quantopian github! (however, some links down)
+- Visit the Quantopian github! (however, some links are not working)
     - [https://github.com/quantopian](https://github.com/quantopian)
     - There are several packages
         - `zipline`: if we install it locally, we can do backtests locally on our computer; however, it's not that easy to install
         - `alphalens`: alpha prediction
         - `pyfolio`: portfolio risk analysis
+        - ...
 - The IDE uses `zipline` and it requires some expeteced functions
     - `initialize`: a `context` variable is created, which contains the stocks or the portfolio
     - `handle_data`: called every minute to perform actions depending on stock values
@@ -42,6 +46,7 @@ However, my experience with Blueshift was not as good as expected. The main issu
         - that is really risky
         - we can put some leverage ratio thresholds to avoid too much risk
     - short: basically, the weights of stocks to short are negative
+    - work with futures
  
 ### Some algorithms programmed
 
@@ -59,3 +64,11 @@ However, my experience with Blueshift was not as good as expected. The main issu
     - If price goes above the upper limit, we short it
     - If the price goes below the lower limit, we buy the stock
     - The returns in the backtest were 60%, but it really depends on the stock tried: some stocks yield -45%!
+- Stock sentiment analysis
+    - Sentiment analysis performs natural language processing (NLP) on texts related to stocks to evaluate a sentiment score `[-1,1]` which would predict the evolution of the price
+    - The texts are extracted from social media and news
+    - Usually sentiment analysis data is not free; we can also program it on our own... however, Quantopian offered free sentiment analysis data for certain time periods
+    - The instructor performs sentiment analysis and it performs pooly; possible reasons:
+        - The analyzed texts might be generated after the price action has happened, e.g., when it goes down people write bad news, when it goes up people write good things; therefore, teh sentiment is not a predictor, but the predicted by the price
+        - The used dataset is a free one; companies usually have their own datasets, probably better than those free ones
+        - We can expect many people are using available datasets, free or not; that has an effect, since we are not spotting a bargain, as we might expect
