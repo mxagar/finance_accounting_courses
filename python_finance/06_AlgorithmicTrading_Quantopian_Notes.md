@@ -4,11 +4,16 @@ This document summarizes the last two sections of the Udemy course by José Marc
 
 **Python for Financial Analysis and Algorithmic Trading**
 
-The videos of the original course explain how to perform backtests with trading algorithms using Quantopian. However, Quantopian was acquired in late 2020 by Robinhood and the `zipline` servers offering the Quantopian services were shut down. Therefore, two alternatives are possible:
+The videos of the original course explain how to perform backtests with trading algorithms using Quantopian. However, Quantopian was acquired in late 2020 by Robinhood and the `zipline` servers offering the Quantopian services were shut down. Therefore, three alternatives are possible:
 1. Run the backtests locally installing the `zipline` library
 2. Use Blueshift instead of Quatopian; Blueshift seems to be identical, also free: https://blueshift.quantinsti.com
+3. [QuantConnect](https://www.quantconnect.com): A new version of the course was released on 2021.09 with 5:30h of videos on QuantConnect, which should replace Quatopian.
 
-However, my experience with Blueshift was not as good as expected. The main issue is that they have almost no documentation and there seems to be no text completion/documentation in the IDE's code editor. [Zipline](www.zipline.io) seems to be down, so I cannot access to the documentation to install it correctly.
+My experience with Blueshift was not as good as expected. The main issue is that they have almost no documentation and there seems to be no text completion/documentation in the IDE's code editor. [Zipline](www.zipline.io) seems to be down, so I cannot access to the documentation to install it correctly.
+
+I have not tried QuatConnect; it seems you need to buy the new course:
+
+Python for Finance and Algorithmic Trading with QuantConnect
 
 ## Some notes on the videos
 

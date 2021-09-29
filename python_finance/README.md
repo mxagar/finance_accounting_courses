@@ -22,4 +22,8 @@ List of sections covered:
 6. Basics of Algorithmic Trading with Quantopian
 7. Advanced Quantopian and Trading Algorithms
 
-Most of the contents in those notebookas are also in my `python_manual.txt`.
+Note that Quantopian was closed, so a new version of the course (which needs to be bought, aparently) was released using [QuantConnect](https://www.quantconnect.com); the related section is 5:30h long and has the title
+
+8. Algorithmic Basics Trading with QuantConnect
+
+Most of the contents in those notebooks are also in my `python_manual.txt`.
