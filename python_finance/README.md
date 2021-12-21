@@ -2,8 +2,9 @@
 
 This notebooks summarize the most important insights and practical snippets collected after following the Udemy course by José Marcial Portilla
 
-[Python for Financial Analysis and Algorithmic Trading]
-(https://www.udemy.com/course/python-for-finance-and-trading-algorithms/)
+[Python for Financial Analysis and Algorithmic Trading](https://www.udemy.com/course/python-for-finance-and-trading-algorithms/)
+
+Unfortunately, I have not found a repository to fork th enotebooks from; therefore, I created these notebooks as I coded along following the course.
 
 List of sections **not** covered here:
 - Intro
