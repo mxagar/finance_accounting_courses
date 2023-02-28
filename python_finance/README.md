@@ -4,9 +4,10 @@ This notebooks summarize the most important insights and practical snippets coll
 
 [Python for Financial Analysis and Algorithmic Trading](https://www.udemy.com/course/python-for-finance-and-trading-algorithms/)
 
-Unfortunately, I have not found a repository to fork th enotebooks from; therefore, I created these notebooks as I coded along following the course.
+Unfortunately, I have not found a repository to fork the notebooks from; therefore, I created these notebooks as I coded along following the course.
 
 List of sections **not** covered here:
+
 - Intro
 - Materials
 - Python Crash Course
@@ -15,6 +16,7 @@ List of sections **not** covered here:
 - Visualization with Matplotlib and Pandas
 
 List of sections covered:
+
 1. Data Sources
 2. Pandas with Time Series data
 3. Market Analysis Project
@@ -27,4 +29,7 @@ Note that Quantopian was closed, so a new version of the course (which needs to 
 
 8. Algorithmic Basics Trading with QuantConnect
 
-Most of the contents in those notebooks are also in my `python_manual.txt`.
+Most of the contents in those notebooks are also in my `python_manual.txt`, not committed.
+
+Mikel Sagardia, 2020.  
+No guarantees.
